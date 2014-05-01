@@ -10,7 +10,7 @@ def sort(sortList):
     while swapped:
         swapped = False
         for item in range(len(sortList)-1):
-            if sortList[item]>sortlist[item +1}:
+            if sortList[item]>sortlist[item +1]:
                 sortList = swap(sortlist, item)
                 swapped = True
     return(sortList)
