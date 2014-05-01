@@ -1,7 +1,7 @@
 def swap(inlist, item):
     a = inlist[item]
     b = inlist[item + 1]
-    inlist[item] = a
+    inlist[item] = b
     inlist[item+1] = a
     return (inlist)
 
