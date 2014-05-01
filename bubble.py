@@ -1,9 +1,9 @@
-def swap(list, item):
-    a = list[item]
-    b = list[item + 1]
-    list[item] = a
-    list[item+1] = a
-    return (list)
+def swap(inlist, item):
+    a = inlist[item]
+    b = inlist[item + 1]
+    inlist[item] = a
+    inlist[item+1] = a
+    return (inlist)
 
 def sort(sortList):
     swapped = True
